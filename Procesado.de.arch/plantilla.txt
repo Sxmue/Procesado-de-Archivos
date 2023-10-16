@@ -1,0 +1,13 @@
+Hola {{NombreResp}}.
+
+Desde nuestra empresa sabemos que estáis empezando nuevos proyectos
+en {{NombreEmp}} y queremos ayudarte a que tenga éxito en estos tiempos
+difíciles.
+Para ello, vamos a compartir tu correo {{Correo}} con nuestro
+departamento técnico en {{Localidad}} para que se pongan en contacto y
+podamos realizar una propuesta conjunta.
+
+Un saludo
+
+Con amor y con cariño para el profesor {{francisco}}.
+

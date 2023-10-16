@@ -1,0 +1,28 @@
+
+<configuration debug="false">
+	<!-- Define el conversor de patrones personalizado -->
+	<conversionRule conversionWord="color" converterClass="ColorCustom" />
+
+	<!-- CONSOLE APENDER -->
+	<appender name="mitrazaconsola" class="ch.qos.logback.core.ConsoleAppender">
+	
+		<!-- Layer Pattern de consola con colores personalizados -->
+		<encoder>
+
+			<pattern>%cyan(%-30( %date{dd MMM yyyy;HH:mm:ss.SSS} [%thread] )) %color(%-5level) %cyan(%logger{26}) - %kvp - %msg%n</pattern>
+
+		</encoder>
+
+	</appender>
+
+	<!-- LOGGER/GRIFO PRINCIPAL -->
+	<root level="DEBUG">
+
+		<!-- Referencia consola -->
+		<appender-ref ref="mitrazaconsola" />
+
+	</root>
+
+</configuration>
+
+

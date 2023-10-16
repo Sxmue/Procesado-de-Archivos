@@ -1,0 +1,13 @@
+CodCliente,NombreEmp,Localidad,Correo,NombreResp
+
+101,EcoTech Solutions,Barcelona,ecotech@example.com,Carlos González,Contrato Indefinido
+
+102,InnovaSoft,Sevilla,innovasoft@example.com,Marta López
+
+103,GlobalTech,globaltech@example.com,Andrés Martínez
+
+104,ElectroMasters,Madrid,electromasters@example.com,Sofía Pérez
+
+105,Asador de Pollos,Madrid,asadordepollos@example.com,Paco Pepe
+
+106,Accenture,Bilbao,accenture@example.com,Jhon Smith
